@@ -1,0 +1,14 @@
+.btn{
+    font-size: 17px;
+    line-height: 20px;
+    padding:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border-color: var(--btn-color);
+    background: var(--btn-color);
+    color: #fff;
+    cursor:pointer;
+    margin-left: 38%;
+
+}

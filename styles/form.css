@@ -1,0 +1,73 @@
+.form{
+    width: 100%;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #fff;
+    position:relative;
+    }
+.form > .form-row {
+    width:100%;
+    margin-bottom:15px;
+    }
+
+.form > .form-row:first-child{
+    width:100%;
+    margin-bottom: 30px;
+    }
+
+.form > .form-row h1{
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: lighter;
+
+}
+.form > .form-row > .input {
+    padding: 20px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.form > .form-row > .input:focus-visible {
+    outline: none
+}
+
+.form > .form-row > .input::placeholder {
+    color: var(--text-color);
+    font-size: 17px;
+}
+.form > .form-row > .input1 {
+    width: 49%;
+    border:none;
+    background: var(--first-row);
+
+    }
+
+.form > .form-row > .input2 {
+        width: 49%;
+        border:none;
+        background: var(--second-row);
+    
+     }
+.form > .form-row > .input3 {
+        width: 99%;
+        border:none;
+        background: var(--third-row);
+    
+     }
+.form > .form-row > .input4 {
+        width: 99%;
+        border:none;
+        background: var(--fourth-row);
+        padding-bottom: 50px;
+        margin-bottom: 15px; 
+     }
+
+.form > .form-row p{
+    color: var(--p-color);
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+
